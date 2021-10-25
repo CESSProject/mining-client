@@ -154,29 +154,29 @@ $ sysctl -p
 
 ## Wallet & Staking
 
-Install Google browser, install METAMASK plug-in, register METAMASK account, and create two METAMASK accounts:
+**1.** Install Google browser, install METAMASK plug-in, register METAMASK account, and create two METAMASK accounts:
 
 Account 1 Wallet address: used for staking, revenue, penalty (private key user manages himself)
 
 Account 2 Wallet address: for authentication, contract operations (private key provided in keystore file)
 
-Get BNB of the test network from Binance smart chain faucet to pay gas fees for contract operation, and get the address:
+**2.** Get BNB of the test network from Binance smart chain faucet to pay gas fees for contract operation, and get the address:
 
  https://testnet.binance.org/faucet-smart 
 
 Note: Please enter the wallet address for account 
 
-Connect Metamask to the BSC test network, refer to https://cess.cloud/FAQ Article 2.
+**3.** Connect Metamask to the BSC test network, refer to https://cess.cloud/FAQ Article 2.
 
-Add tokens to the wallet of account 1, refer to https://cess.cloud/FAQ article 3.
+**4.** Add tokens to the wallet of account 1, refer to https://cess.cloud/FAQ article 3.
 
-To the tap of the CESS chain to get the CES of the test net, for staking, to get the address:
+**5.** To the tap of the CESS chain to get the CES of the test net, for staking, to get the address:
 
 https://www.cess.cloud/faucet 
 
 Note: Please enter the wallet address for account 1.
 
-Enter the CESS test system in BSC through Google Chrome at https://cess.cloud/ ,Click`CONNECT WALLET`on upper right corner, then select `Miner Login`. Enter Wallet 2 address and public IP, choose storage size , then add staking and click the button `Pledge immediately`. 
+**6.** Enter the CESS test system in BSC through Google Chrome at https://cess.cloud/ ,Click`CONNECT WALLET`on upper right corner, then select `Miner Login`. Enter Wallet 2 address and public IP, choose storage size , then add staking and click the button `Pledge immediately`. 
 
 
 
@@ -200,9 +200,9 @@ $ geth account list
 
 ## Operation mining
 
-Go to CESS FAQ at https://cess.cloud/FAQ Under #11, download CESS `mining client`.
+* Go to CESS FAQ at https://cess.cloud/FAQ Under #11, download CESS `mining client`.
 
-View help information for the node program
+* View help information for the node program
 
 ```
 $ sudo chmod +x ./node
@@ -234,13 +234,13 @@ Options:
  show type and version.
 ```
 
-Run node in the background: 
+* Run node in the background: 
 
 ```
 $ sudo ./node -k ./mykeystore -p xxx -m /data -n C123 -s 500 -i x.x.x.x:x > node.log  2>&1 & 
 ```
 
-Run node in the foreground: 
+* Run node in the foreground: 
 
 ```
 $ sudo ./node 
@@ -310,7 +310,7 @@ NOTE: Only when the accumulated additional space reaches 1TB can it work normall
 >5
 ```
 
-After successful login verification, your reported space, verified space and used space  information will be displayed, and then storage mining officially begins:
+* After successful login verification, your reported space, verified space and used space  information will be displayed, and then storage mining officially begins:
 
 ```
 ###########################################################################  
